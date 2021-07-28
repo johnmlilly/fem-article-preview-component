@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/johnmlilly/fem-article-preview-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -37,17 +37,16 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-I learned to approach projects with a mobile-first mindset.
+I learned to approach projects with a mobile-first mindset. I also learned that often when applying styling to an element I was inserting it onto the child element rather than the parent. I often added code and nothing changed, but when I fixed my mistake I realized what I had done wrong. 
+
+I also  learned to apply patience to this project and not rush things. I would often find myself frustrated or annoyed I couldn't align two divs side-by-side easily, but I remembered to take my time, research different solutions, and reach out for help when I needed it. I utilized the slack channel for Frontend Mentor, too.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
@@ -57,5 +56,5 @@ I learned to approach projects with a mobile-first mindset.
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
+- [Dadko44 Project @dadko44](hhttps://github.com/dadko44/article-preview-component-main) - This helped me get an idea of how to  layout the semantic HTML and determine the correct styling to the container. 
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.

@@ -22,7 +22,7 @@ body {
     background-color: var(--light-grayish-blue);
     min-height: 100vh;
 }
-
+/*This is the main container for the page*/
 .container {
    position: relative;
    overflow: hidden;
@@ -38,6 +38,7 @@ body {
     border-bottom-right-radius: 5%;
 }
 
+/*drawers image*/
 .img {
     display: flex;
     width: 100%;
@@ -71,6 +72,8 @@ body {
     margin: 0 0 0 1rem;
 }
 
+/*This is the clickable share button at the bottom right of the page, 
+which displays several social share options when a user clicks on it*/
 .share-btn {
     display: flex;
     justify-content: right;
