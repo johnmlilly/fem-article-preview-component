@@ -15,32 +15,47 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: "Manrope", sans serif;
-    font-size: 13px;
     background-color: var(--light-grayish-blue);
+    min-height: 100vh;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+   position: relative;
+   overflow: hidden;
+   margin: auto;
+   width: 20%;
+   
 }
 
-.description {
+.main-article {
     background-color: #fff;
     padding: 25px;
-    flex: 1;
 }
 
 .img-container {
-    flex: 1;
+    width: 100%;
+    margin: auto;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
 }
 
-.michelle {
+.avatar-img {
     border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.article-text {
+    margin-bottom: 25px;
+    
 }
 
 h1 {
@@ -50,15 +65,12 @@ h1 {
     color: var(--very-dark-blue)
 }
 
-#name {
-    font-size: 1rem;
-}
-
 p {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.6;
     color: var(--grayish-blue);
+    font-size: 13px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
